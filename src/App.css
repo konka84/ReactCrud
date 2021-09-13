@@ -1,0 +1,63 @@
+.App {
+  margin: auto;
+  width: 50%;
+text-align: center;
+}
+
+.myForm{
+  width: 100%;
+  background-color:lightskyblue;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.formField{
+ 
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  
+}
+
+.myButton{
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.myList{
+  display: flex;
+  flex-direction: row;
+    background-color:lightskyblue;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+  
+}
+
+.myListButton{
+  display: inline-block;
+  height: 20px;
+  width: 30px;
+  border-radius: 7px;
+  border: 1px;
+  margin: 3px 5px;
+ 
+  background-color:darkblue ;
+  color: lightsteelblue;
+
+  
+  
+}
+
