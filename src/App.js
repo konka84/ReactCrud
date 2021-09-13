@@ -82,7 +82,7 @@ class App extends Component {
         <form ref="myForm" className="myForm">
           <input type="text" ref="name" placeholder="Name" className="formField" />
           <input type="text" ref="mail" placeholder="E-mail" className="formField" />
-          <input type="text" ref="ToDo" placeholder="TO-D0" className="formField" />
+          <input type="text" ref="ToDo" placeholder="TO-Do" className="formField" />
           <button onClick={(e) => this.fSubmit(e)} className="myButton">submit </button>
         </form>
         <pre>
@@ -90,7 +90,7 @@ class App extends Component {
             <div key={i} className="myList" >
               <div style={{ display: 'flex', flexFlow: "row", justifyContent: "space-between" }}>
                 <div class="user" >
-                <b> User{i +1}</b><br/>Name:{data.name}<br/>Email:{data.mail}<br/>Task:{data.ToDo}
+                <b> User{i +1}</b><br/>Name:{data.name}<br/>Email:<a href={"mailto:"+data.mail}> {data.mail}</a><br/>Task:{data.ToDo}
                 </div>
                 <div className="myListButtonDesign" style={{float : 'right'}}>
                   <button onClick={() => this.fRemove(i)} className="myListButton"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
