@@ -17,11 +17,12 @@ text-align: center;
   padding: 12px 20px;
   margin: 8px 0;
   display: block;
-  border: 1px solid #ccc;
+  border: 1px ;
   border-radius: 5px;
   box-sizing: border-box;
   
 }
+
 
 .myButton{
   width: 100%;
@@ -34,11 +35,19 @@ text-align: center;
   cursor: pointer;
 }
 
+
+.formField:focus{background-color: wheat;
+
+  outline: none !important;
+
+border: none;
+}
+
+
 .myList{
-  display: flex;
-  flex-direction: row;
+  
     background-color:lightskyblue;
-    margin: 5px;
+    margin: 10px;
     padding: 5px;
     border-radius: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -56,8 +65,15 @@ text-align: center;
  
   background-color:darkblue ;
   color: lightsteelblue;
-
+  
+ 
   
   
 }
-
+.myListButtonDesign{
+  
+  
+}
+.user{
+  text-align: left;
+}
